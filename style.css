@@ -1,146 +1,146 @@
 .openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
 }
 
 .openbtn:hover {
-  background-color: #444;
+    background-color: #444;
 }
 
 .panel {
-  height: 100%; 
-  width: 0; 
-  position: fixed; 
-  top: 0;
-  left: 0;
-  background-color: #111; 
-  overflow-x: hidden;
-  padding: 0; 
-  transition: 0.5s; 
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding: 0;
+    transition: 0.5s;
 }
 
 .panel .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 .panel a {
-  padding: 8px 8px 8px 0;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+    padding: 8px 8px 8px 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
 .panel a:hover {
-  color: #f1f1f1;
+    color: #f1f1f1;
 }
 
 #newMeme {
-	height: 0px;
-	width: 100%;
-	overflow-y: hidden;
-	transition: 0.5s;
+    height: 0px;
+    width: 100%;
+    overflow-y: hidden;
+    transition: 0.5s;
 }
 
 label {
-  margin-top: 20px;
-  color: #fff;
-  display: block;
+    margin-top: 20px;
+    color: #fff;
+    display: block;
 }
 
 input {
-	border-color: #111 #111 #fff #111;
-	color: #fff;
-	background: #111;
-	outline: none;
+    border-color: #111 #111 #fff #111;
+    color: #fff;
+    background: #111;
+    outline: none;
 }
 
 #patchForm .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
 }
 
 .btn {
-	margin-top: 10%;
-	border-color: #fff;
-	background: #111;
-	color: #fff;
-	padding: 10px;
-	border-radius: 20%;
+    margin-top: 10%;
+    border-color: #fff;
+    background: #111;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20%;
 }
 
 .meme {
-	width: 20%;
-	height: 20%;
-	margin: 2.5%;
-	background: #ccffff;
-	border: blue;
-	display: inline-block;
-	border-color: blue;
-	border-radius: 10% 0 10% 0;
+    width: 20%;
+    height: 20%;
+    margin: 2.5%;
+    background: #ccffff;
+    border: blue;
+    display: inline-block;
+    border-color: blue;
+    border-radius: 10% 0 10% 0;
 }
 
 .out {
-	background: rgba(120, 120, 120, 0.6);
-	outline: none;
-	border-right: none;
-	border-left: none;
-	border-top: none;
-	border-color: green;
-	margin: 10px;
+    background: rgba(120, 120, 120, 0.6);
+    outline: none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-color: green;
+    margin: 10px;
 }
 
 img {
-	width: 70%;
-	height: 70%;
+    width: 70%;
+    height: 70%;
 }
 
 .cap {
-	margin-bottom: 0;
-	font-style: italic;
+    margin-bottom: 0;
+    font-style: italic;
 }
 
 .uname {
-	margin-left: 15%;
+    margin-left: 15%;
 }
 
 .edit {
-	padding: none;
-	border: none;
-	background: #ccffff;
+    padding: none;
+    border: none;
+    background: #ccffff;
 }
 
 .container {
-	display: block;
+    display: block;
 }
 
 #patchForm {
-	transition: 0.5s;
-	display: none;
-	position: absolute;
-	top: 10%;
-	text-align: center;
-	left: 37.5%;
-	width: 25%;
-	height: 25%;
-	border-radius: 5%;
-	padding: 30px;
-	background: rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+    display: none;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    left: 37.5%;
+    width: 25%;
+    height: 25%;
+    border-radius: 5%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
 }
