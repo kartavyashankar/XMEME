@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XMEME</title>
+    <link rel="stylesheet" type="text/css" href="style.css">  
+  </head>
+  <body>
+    <div id="p1" class="panel">
+    	<a href="javascript:void(0)" class="closebtn" onclick="closePanel()">&times;</a>
+    	<a href="javascript:void(0)" onclick="togglenform()">&gt; ADD A NEW MEME</a>
+    	<div id="newMeme">
+    		<form id="newForm">
+    			<label for="n1">Name:</label><br>
+    			<input type="text" placeholder="Your Name" name="name" id="n1" required><br>
+    			<label for="u1">URL for meme image:</label><br>
+    			<input type="text" name="url" placeholder="URL" id="u1" required><br>
+    			<label for="c1">Caption:</label><br>
+    			<input type="text" placeholder="Caption for meme" name="caption" id="c1" required><br>
+    			<button class="btn" id="submit">Add Meme</button> 
+    		</form>
+    	</div>
+    </div>
+    <button class="openbtn" onclick="openPanel()"> &#9776; MENU </button>
+    <div id="container"></div>
+    <form id ="patchForm">
+    	<a href="javascript:void(0)" class="closebtn" onclick="closewin()">&times;</a>
+    	<input type="text" class="out" name="caption" placeholder="Edit Caption"><br>
+    	<input type="text" name="url" class="out" placeholder="Edit image"><br>
+    	<button type="submit" class="btn">Submit</button>
+    </form>
+    <script src="code.js"></script>
+  </body>
+</html>
