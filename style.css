@@ -2,6 +2,7 @@ body {
     background-image: url("wp5437792.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .openbtn {
