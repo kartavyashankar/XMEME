@@ -8,12 +8,14 @@ function openPanel() {
 	var mySpan = document.getElementById("p1");
 	mySpan.style.width = "30%";
 	mySpan.style.padding = "2% 5% 2% 2%";
+	document.getElementById("bn").style.display = "none";
 }
 
 function closePanel() {
 	var mySpan = document.getElementById("p1");
 	mySpan.style.width = "0";
 	mySpan.style.padding = "0";
+	document.getElementById("bn").style.display = "block";
 }
 
 function togglenform() {
