@@ -155,12 +155,13 @@ img {
     top: 10%;
     width: 100%;
     text-align: center;
+    padding: 0px;
 }
 
 #patchForm form {
     margin-left: auto;
     margin-right: auto;
-    width: 330px;
+    width: 320px;
     border-radius: 5%;
     padding-top: 10px;
     padding-right: 10px;
