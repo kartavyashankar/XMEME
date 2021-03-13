@@ -53,11 +53,16 @@ body {
     transition: 0.3s;
 }
 
+a {
+    overflow-x: hidden;
+}
+
 .panel a:hover {
     color: #f1f1f1;
 }
 
 #newMeme {
+    overflow-x: hidden;
     height: 0px;
     width: 100%;
     overflow-y: hidden;
