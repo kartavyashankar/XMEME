@@ -3,6 +3,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 .openbtn {
@@ -83,11 +84,10 @@ input {
 }
 
 #patchForm .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
+    float: right;
     font-size: 36px;
     margin-left: 50px;
+    margin-bottom: 50px;
     text-decoration: none;
     font-size: 25px;
     color: #fff;
@@ -150,16 +150,25 @@ img {
 }
 
 #patchForm {
-    transition: 0.5s;
     display: none;
-    position: absolute;
-    top: 10%;
-    text-align: center;
-    left: 37.5%;
-    width: 25%;
-    height: 25%;
-    border-radius: 5%;
-    padding: 30px;
-    background: rgba(0, 0, 0, 0.6);
     position: fixed;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+#patchForm form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    border-radius: 5%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#patchForm input {
+    width: 70%;
 }

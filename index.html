@@ -45,24 +45,26 @@
     </div>
     <button class="openbtn" id="bn" onclick="openPanel()">&#9776; MENU</button>
     <div id="container"></div>
-    <form id="patchForm">
-      <a href="javascript:void(0)" class="closebtn" onclick="closewin()"
-        >&times;</a
-      >
-      <input
-        type="text"
-        class="out"
-        name="caption"
-        placeholder="Edit Caption"
-      /><br />
-      <input
-        type="text"
-        name="url"
-        class="out"
-        placeholder="Edit image"
-      /><br />
-      <button type="submit" class="btn">Submit</button>
-    </form>
+    <div id="patchForm">
+      <form>
+        <a href="javascript:void(0)" class="closebtn" onclick="closewin()"
+          >&times;</a
+        >
+        <input
+          type="text"
+          class="out"
+          name="caption"
+          placeholder="Edit Caption"
+        /><br />
+        <input
+          type="text"
+          name="url"
+          class="out"
+          placeholder="Edit image"
+        /><br />
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
     <script src="code.js"></script>
   </body>
 </html>
